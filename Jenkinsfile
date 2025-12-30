@@ -33,7 +33,7 @@ pipeline{
             steps {
                 git branch: 'main', 
                 credentialsId: 'github_jenkins_piplinefiledemo', 
-                url: 'https://github.com/Saravanan-Jayaraman/jenkinspipeline.git'
+                url: 'https://github.com/Saravanan-Jayaraman/springwithjenkinsfile.git'
             }
         }
         
