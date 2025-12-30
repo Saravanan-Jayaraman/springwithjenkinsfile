@@ -32,7 +32,7 @@ pipeline{
          stage('Clone Repo') {
             steps {
                 git branch: 'main', 
-                credentialsId: 'github_jenkins_piplinedemo', 
+                credentialsId: 'github_jenkins_piplinefiledemo', 
                 url: 'https://github.com/Saravanan-Jayaraman/jenkinspipeline.git'
             }
         }
